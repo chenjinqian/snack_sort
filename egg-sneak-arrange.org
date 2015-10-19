@@ -1,0 +1,2 @@
+** I have this new idear
+   an arrange algram, egg and sneak. The more ordered data there is, the more easier it become to arrange the now one. If you have one to insert to N = 2^n serquence, the best speed you can get is O(log_2 N),  so make that serquence.
