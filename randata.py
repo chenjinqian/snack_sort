@@ -10,6 +10,14 @@ def getran(num):
     a = []
     i = 0
     while i < num:
-        a.append(random.randint(0, 10000))
+        a.append(random.randint(0, 1000000))
+        i += 1
+    return a
+
+def getzero(num):
+    a = []
+    i = 0
+    while i < num:
+        a.append(0)
         i += 1
     return a
