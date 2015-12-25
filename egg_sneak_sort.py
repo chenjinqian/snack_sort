@@ -161,8 +161,7 @@ def log2_int(N):
     from math import log2
     return int(log2(N))
 
-
+#for test and debug during coding.
 #lsa = [1,2,3,4,5,6,7,8,9,10,11,12,16,15,14,13]
 #lsa = getran(32, 100)
-#lsa.reverse()
-#return nonetype
+#lsa.reverse()   #This will return nonetype.

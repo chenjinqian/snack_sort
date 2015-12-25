@@ -91,6 +91,5 @@ if  __name__ == '__main__':
     array = randata.getran(20)
     print("Original array is" , array)
     print(quick_sort(array))
-
 #ar = randata.getran(10)
 #for test

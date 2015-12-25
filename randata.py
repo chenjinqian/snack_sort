@@ -6,11 +6,15 @@
 #License: GPL
 
 import random
-def getran(num):
+#print("Now importing randata")  #print only when first time imported.
+def getran(num, rang):
+    """
+    getran(n, R), make a list with n numbers of rang R.
+    """
     a = []
     i = 0
     while i < num:
-        a.append(random.randint(0, 1000000))
+        a.append(random.randint(0, rang))
         i += 1
     return a
 

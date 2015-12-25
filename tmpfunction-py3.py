@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
-#!/usr/bin/python2
-print "This is the python2 expression"
+#!/usr/bin/python3
+#print "This is the python2 expression"
 #a = 0
 #if 0 == a:
 #    print("0 == a")
@@ -63,7 +63,7 @@ print "This is the python2 expression"
 #help(str)
 #help(randata)
 #help(0)
-import media
+#import media  #won't work, this is a python2 module.
 #f = media.choose_file()
 #import nose
 #see test_quick_sort.
@@ -81,21 +81,35 @@ import media
 #import urllib
 #help(urllib)
 #dir(urllib)
-import sys
-def process_file(filenames):
-    """open, read, and print a file.
-
-    Arguments:
-    - `filenames`:
-    """
-    input_file = open(filenames, "r")
-    for line in input_file:
-        line = line.strip()
-        print(line)
-
-    input_file.close()
-
-print "This is the python2 expression"
-
-if __name__ == "__main__":
-    process_file(sys.argv[1])
+#import sys
+#def process_file(filenames):
+#    """open, read, and print a file.
+#
+#    Arguments:
+#    - `filenames`:
+#    """
+#    input_file = open(filenames, "r")
+#    for line in input_file:
+#        line = line.strip()
+#        print(line)
+#
+#    input_file.close()
+#
+#
+#if __name__ == "__main__":
+#    process_file(sys.argv[1])
+#
+#le = 'fe  li'
+#le2 = le.split()
+#le3 = le2 * 3
+#>>> le2[0] = 'Cu'
+#>>> le3
+#['fe', 'li', 'fe', 'li', 'fe', 'li']
+#>>> le2
+#['Cu', 'li']
+#>>> le
+#'fe  li'
+print(list(range(9)))
+#import math
+#for x in range(100):
+#    print(int(10 * math.sqrt(x + 1)))
